@@ -602,7 +602,7 @@ async function viewSettings() {
     await githubSection(),
     h('div', { class: 'h-page' }, 'О приложении'),
     h('p', { class: 'stat' }, `Цитат дня в приложении: ${(window.QUOTES || []).length}, по одной на каждый день года.`),
-    h('p', { class: 'stat' }, 'Версия 0.5'));
+    h('p', { class: 'stat' }, 'Версия 0.6'));
 }
 
 /* ---------- копия в GitHub ---------- */

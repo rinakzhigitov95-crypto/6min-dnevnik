@@ -6,7 +6,7 @@
 - Записи хранятся в IndexedDB на устройстве; каждая прежняя версия записи сохраняется в истории.
 - Копия записей: приватный репозиторий `6min-dnevnik-data` (раздел «Ещё» → «Копия в GitHub», нужен fine-grained токен с правом Contents: Read and write только на этот репозиторий). Каждое сохранение — коммит.
 - Резервная копия вручную: «Ещё» → «Сохранить копию (JSON)» / «Восстановить из копии».
-- Цитаты дня: `app/quotes.js`, 365 штук по дню года.
+- Цитаты дня: 365 настоящих цитат с авторами; источник `tools/quotes-source.txt`, сборка `python3 -I tools/build-quotes.py` → `app/quotes.js`.
 - `tools/mock-github.py` — локальная имитация GitHub API для проверки синхронизации (`python3 tools/mock-github.py`, токен `test-token`).
 
 Локальный просмотр: `python3 -m http.server 8765 --directory app` и открыть http://localhost:8765

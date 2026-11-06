@@ -1,6 +1,6 @@
 /* Сервис-воркер: приложение работает без интернета. Данные записей здесь не хранятся,
    кэшируются только файлы самого приложения. */
-const VERSION = 'v0.5.0';
+const VERSION = 'v0.6.0';
 const CACHE = 'dnevnik6-' + VERSION;
 const FILES = ['./', './index.html', './style.css', './app.js', './quotes.js', './manifest.webmanifest',
   './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
